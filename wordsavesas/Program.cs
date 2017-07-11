@@ -94,9 +94,9 @@ namespace wordsaveas
                     Console.WriteLine(ex.Message);
                 }
                 wi.Quit();
-                Console.WriteLine("Done!");
             }
             Console.ForegroundColor = col;
+            Console.WriteLine("Done!");
         }
     }
 }
