@@ -16,16 +16,16 @@ namespace wordsaveas
             [Option('i', "input", Required = true, HelpText = "Input file/directory to be processed.")]
             public string SourcePath { get; set; }
 
-            [Option('o', "output", Required = true, HelpText = "Output file/directory to receive processed files")]
+            [Option('o', "output", Required = true, HelpText = "Output file/directory to receive processed files.")]
             public string DestPath { get; set; }
 
-            [Option("format", Required = false, HelpText = "Output format :: pdf, text, doc.", DefaultValue = "pdf")]
+            [Option("format", Required = false, HelpText = "Output format :: pdf, text, doc, html.", DefaultValue = "pdf")]
             public string OutputFormat { get; set; }
 
             [Option('f',"force", Required = false, HelpText = "Force file overwrite if output path already exists.", DefaultValue = false)]
             public bool ForceDelete { get; set; }
 
-            [Option('m', "mask", Required = false, HelpText = "File mask to filter input files default: \"*.docx\"", DefaultValue = "*.docx")]
+            [Option('m', "mask", Required = false, HelpText = "File mask to filter input files.", DefaultValue = "*.docx")]
             public string FileMask { get; set; }
 
             [ParserState]
