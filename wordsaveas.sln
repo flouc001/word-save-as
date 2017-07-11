@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordsavesas", "wordsavesas\wordsavesas.csproj", "{02F0D936-DE98-4D34-BC31-CB3D8D00E0DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordsaveas", "wordsavesas\wordsaveas.csproj", "{02F0D936-DE98-4D34-BC31-CB3D8D00E0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

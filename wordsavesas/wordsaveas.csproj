@@ -7,8 +7,8 @@
     <ProjectGuid>{02F0D936-DE98-4D34-BC31-CB3D8D00E0DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>wordsavesas</RootNamespace>
-    <AssemblyName>wordsavesas</AssemblyName>
+    <RootNamespace>wordsaveas</RootNamespace>
+    <AssemblyName>wordsaveas</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
